@@ -7,6 +7,7 @@ COPY betterlisting.sh /docker-entrypoint.d/30-betterlisting.sh
 COPY fetch.sh fetch.sh
 COPY cpmap.txt /
 
+RUN chmod +x fetch.sh /docker-entrypoint.d/30-betterlisting.sh
 RUN apk add --no-cache git bash
 RUN ./fetch.sh
 RUN rm cpmap.txt fetch.sh
