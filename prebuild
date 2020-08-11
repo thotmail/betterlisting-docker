@@ -33,5 +33,3 @@ done < cpmap.txt
 
 echo Cleaning
 rm -rf Faenza tmp icon.zip BetterListing
-
-echo REMEMBER TO CHANGE WEBSITE NAME/URL IN betterlisting/top.html
