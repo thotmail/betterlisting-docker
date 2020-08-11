@@ -27,6 +27,7 @@ If you\'re building locally, I assume you know what needs to be changed in eithe
 ## Enviornment:
 
 `WEB_NAME`: The name of your website.
+
 `WEB_URL`: The url to said website, please include `http[s]://` or weird things happen.
 
 Both can be left blank
