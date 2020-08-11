@@ -2,11 +2,11 @@ version: '2'
 
 services:
   betterlisting:
-    image: nginx:alpine
+    image: thotmail/betterlisting
     volumes:
-      - ./default.conf:/etc/nginx/conf.d/default.conf
-      - ./betterlisting/:/files/.betterlisting
       - /path/to/files:/files
+    environment:
+      - WEB_NAME=Nameofsite #optional
+      - WEB_URL=http://URLofsite.com #optional
     ports:
       - 1234:80
-
