@@ -1,7 +1,7 @@
 # betterlisting-docker
 An nginx server to serve as a nice looking directory listing
 
-[Github](github.thotmail.ca/betterlisting-docker)
+[Github](https://github.thotmail.ca/betterlisting-docker)
 
 [Docker](https://hub.docker.com/repository/docker/thotmail/betterlisting)
 
